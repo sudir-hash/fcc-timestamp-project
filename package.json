@@ -4,28 +4,15 @@
   "description": "An FCC Backend Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev"   : "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.0",
     "express": "^4.12.4",
     "moment": "^2.29.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
-  "keywords": [
-    "node",
-    "express",
-    "freeCodeCamp"
-  ],
-  "license": "MIT",
+  "author": "sudhir",
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
